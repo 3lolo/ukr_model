@@ -41,14 +41,259 @@ span.status {
 <h1 class="experiment">/home/lolo/ukr_model</h1>
 <h2 class="hostname">Training ukr_model on lolo-VirtualBox</h2>
 <hr>
-<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:22)</h3>
+<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:29)</h3>
 <p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
 <p class='result'>sphinx_fe <a href="file:///home/lolo/ukr_model/logdir/000.comp_feat/ukr_model.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
 <p>Feature extraction is done</p>
 <hr>
-<h3>MODULE: 00 verify training files	(2016-03-25 02:22)</h3>
+<h3>MODULE: 00 verify training files	(2016-03-25 02:29)</h3>
 <p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
-<p class='result'>Found 532 words using 43 phones</p>
+<p class='result'>Found 534 words using 45 phones</p>
+<p class='warning'>WARNING: This phone (EI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (II) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.654277777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 531</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ОДИН ХЛОПЕЦЬ ПОСТУПАЄТЬСЯ МІСЦЕМ ЗНАЙОМІЙ ДІВЧИНІ І ВСЮ ДОРОГУ З НЕЮ ЖАРТУЄ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ПОЧИНАЄ ФІКСУВАТИ НА СВІЙ СМАК І РОЗСУД ВЕСТИ ЩОДЕННИК ДАВАТИ СВОЮ ОЦІНКУ ПОДІЙ ЩОСЬ ДОДАВАТИ ЩОСЬ ВІДКИДАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ОДИН ХЛОПЕЦЬ ПОСТУПАЄТЬСЯ МІСЦЕМ ЗНАЙОМІЙ ДІВЧИНІ І ВСЮ ДОРОГУ З НЕЮ ЖАРТУЄ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ПОЧИНАЄ ФІКСУВАТИ НА СВІЙ СМАК І РОЗСУД ВЕСТИ ЩОДЕННИК ДАВАТИ СВОЮ ОЦІНКУ ПОДІЙ ЩОСЬ ДОДАВАТИ ЩОСЬ ВІДКИДАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ОДИН ХЛОПЕЦЬ ПОСТУПАЄТЬСЯ МІСЦЕМ ЗНАЙОМІЙ ДІВЧИНІ І ВСЮ ДОРОГУ З НЕЮ ЖАРТУЄ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ПОЧИНАЄ ФІКСУВАТИ НА СВІЙ СМАК І РОЗСУД ВЕСТИ ЩОДЕННИК ДАВАТИ СВОЮ ОЦІНКУ ПОДІЙ ЩОСЬ ДОДАВАТИ ЩОСЬ ВІДКИДАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ПОЧИНАЄ ФІКСУВАТИ НА СВІЙ СМАК І РОЗСУД ВЕСТИ ЩОДЕННИК ДАВАТИ СВОЮ ОЦІНКУ ПОДІЙ ЩОСЬ ДОДАВАТИ ЩОСЬ ВІДКИДАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<p class='warning'>WARNING: This phone (AI) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (BB) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (E) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (KK) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (Y) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (YA) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:30)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/lolo/ukr_model/logdir/000.comp_feat/ukr_model.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2016-03-25 02:30)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 533 words using 45 phones</p>
+<p class='warning'>WARNING: This phone (EE) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (EI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.654277777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 530</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<p class='warning'>WARNING: This phone (AI) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (BB) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (E) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (KK) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (Y) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (YA) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:30)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/lolo/ukr_model/logdir/000.comp_feat/ukr_model.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2016-03-25 02:30)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 533 words using 45 phones</p>
+<p class='warning'>WARNING: This phone (EE) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (EI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.654277777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 530</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<p class='warning'>WARNING: This phone (AI) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (BB) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (E) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (KK) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (Y) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (YA) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:31)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/lolo/ukr_model/logdir/000.comp_feat/ukr_model.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2016-03-25 02:31)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 532 words using 44 phones</p>
+<p class='warning'>WARNING: This phone (EI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
 <span class='status passed'>passed</span>
 <p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
 <span class='status passed'>passed</span>
@@ -63,45 +308,136 @@ span.status {
 <p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
 <p class='result'>Words in dictionary: 529</p>
 <p class='result'>Words in filler dictionary: 3</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> СКРОМНІШЕ АЛЕ ТЕЖ ЧИМАЛО ПРОСИТЬ ЗА ВИСТУП РУСЛАНА </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НЕ ЗАБУВАЙ ПРО ПОСЛУГИ ЯКІ ТОБІ НАДАЛИ АЛЕ ЗАБУДЬ ПРО ТІ ЯКІ ТИ САМ КОМУСЬ НАДАВ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> СКРОМНІШЕ АЛЕ ТЕЖ ЧИМАЛО ПРОСИТЬ ЗА ВИСТУП РУСЛАНА </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НЕ ЗАБУВАЙ ПРО ПОСЛУГИ ЯКІ ТОБІ НАДАЛИ АЛЕ ЗАБУДЬ ПРО ТІ ЯКІ ТИ САМ КОМУСЬ НАДАВ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> СКРОМНІШЕ АЛЕ ТЕЖ ЧИМАЛО ПРОСИТЬ ЗА ВИСТУП РУСЛАНА </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НЕ ЗАБУВАЙ ПРО ПОСЛУГИ ЯКІ ТОБІ НАДАЛИ АЛЕ ЗАБУДЬ ПРО ТІ ЯКІ ТИ САМ КОМУСЬ НАДАВ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НЕ ЗАБУВАЙ ПРО ПОСЛУГИ ЯКІ ТОБІ НАДАЛИ АЛЕ ЗАБУДЬ ПРО ТІ ЯКІ ТИ САМ КОМУСЬ НАДАВ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ОДИН ХЛОПЕЦЬ ПОСТУПАЄТЬСЯ МІСЦЕМ ЗНАЙОМІЙ ДІВЧИНІ І ВСЮ ДОРОГУ З НЕЮ ЖАРТУЄ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ПОЧИНАЄ ФІКСУВАТИ НА СВІЙ СМАК І РОЗСУД ВЕСТИ ЩОДЕННИК ДАВАТИ СВОЮ ОЦІНКУ ПОДІЙ ЩОСЬ ДОДАВАТИ ЩОСЬ ВІДКИДАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> СКРОМНІШЕ АЛЕ ТЕЖ ЧИМАЛО ПРОСИТЬ ЗА ВИСТУП РУСЛАНА </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НЕ ЗАБУВАЙ ПРО ПОСЛУГИ ЯКІ ТОБІ НАДАЛИ АЛЕ ЗАБУДЬ ПРО ТІ ЯКІ ТИ САМ КОМУСЬ НАДАВ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НЕ ЗАБУВАЙ ПРО ПОСЛУГИ ЯКІ ТОБІ НАДАЛИ АЛЕ ЗАБУДЬ ПРО ТІ ЯКІ ТИ САМ КОМУСЬ НАДАВ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ОДИН ХЛОПЕЦЬ ПОСТУПАЄТЬСЯ МІСЦЕМ ЗНАЙОМІЙ ДІВЧИНІ І ВСЮ ДОРОГУ З НЕЮ ЖАРТУЄ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ПОЧИНАЄ ФІКСУВАТИ НА СВІЙ СМАК І РОЗСУД ВЕСТИ ЩОДЕННИК ДАВАТИ СВОЮ ОЦІНКУ ПОДІЙ ЩОСЬ ДОДАВАТИ ЩОСЬ ВІДКИДАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НЕ ЗАБУВАЙ ПРО ПОСЛУГИ ЯКІ ТОБІ НАДАЛИ АЛЕ ЗАБУДЬ ПРО ТІ ЯКІ ТИ САМ КОМУСЬ НАДАВ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> СКРОМНІШЕ АЛЕ ТЕЖ ЧИМАЛО ПРОСИТЬ ЗА ВИСТУП РУСЛАНА </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ОДИН ХЛОПЕЦЬ ПОСТУПАЄТЬСЯ МІСЦЕМ ЗНАЙОМІЙ ДІВЧИНІ І ВСЮ ДОРОГУ З НЕЮ ЖАРТУЄ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАПРОШЕННЯ ТАКОЖ РОЗДАЛИ ВОЛОНТЕРАМ СТУДЕНТАМ УЧНЯМ І БУДІВНИКАМ СПОРТИВНОГО МАЙДАНЧИКА </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ГОЛОВНЕ Ж ПІД ЧАС ЛІКУВАННЯ КОНТАКТ ІЗ ПРИРОДОЮ НЕ ЗЛИТИСЯ І НЕ ЗАЗДРИТИ НЕ ВОРОГУВАТИ НАВЧИТИСЯ ПРОЩАТИ ОБРАЗИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ПОЧИНАЄ ФІКСУВАТИ НА СВІЙ СМАК І РОЗСУД ВЕСТИ ЩОДЕННИК ДАВАТИ СВОЮ ОЦІНКУ ПОДІЙ ЩОСЬ ДОДАВАТИ ЩОСЬ ВІДКИДАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗДОРОВ’Я НЕ ЗНАЙДЕШ НЕ ПОДАРУЄШ НЕ ВКРАДЕШ ЙОГО МОЖНА ТІЛЬКИ НАПРАЦЮВАТИ І НЕ ВІДКЛАДАТИ ЛІКУВАННЯ НА ЗАВТРА БО ЗАВТРА МОЖЕ І НЕ НАСТАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛИШЕ ТОЙ ЩОСЬ ЗНАЧИТЬ ХТО ЩОСЬ ЛЮБИТЬ НЕ БУТИ НІЧИМ І НІЧОГО НЕ ЛЮБИТИ  ОДНЕ І ТЕ Ж </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> МАЙЖЕ ЩОДЕННО ХТОСЬ ІЗ НИХ ПОМИРАЄ АЛЕ ВОНИ НАВІТЬ НЕ ЗВАЖАЮТЬ НА ЦЕ І ЖИВУТЬ ТАК НЕМОВБИ ЗАВЖДИ НА ТІЙ ЗЕМЛІ ЖИТИ МАЮТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ВІСІМ РОКІВ НЕ МАЛА ДІТЕЙ І ОТ НАРЕШТІ БУЛА ПРИ НАДІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТРИ НАРІЧЧЯ УКРАЇНСЬКОЇ МОВИ ВИДІЛЯЛИСЯ НЕ ЗАВЖДИ ЗА ДАВНЬОРУСЬКОЇ ДОБИ НА ТЕРИТОРІЇ СУЧАСНОЇ УКРАЇНИ НАСЕЛЕННЯ УТВОРЮВАЛО ДВІ ЕТНІЧНОМОВНІ ГРУПИ ПІВНІЧНОСХІДНУ І ПІВДЕННОЗАХІДНУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> А СОНЕЧКО ВСТАНЕ ЯК ПЕРШЕ ВСТАВАЛО І ЗОРІ ЧЕРВОНІ ЯК ПЕРШЕ ПЛИЛИ ПОПЛИВУТЬ І ПОТІМ І ТИ БІЛОЛИЦИЙ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЗАВЖДИ ЗДАЄТЬСЯ ЩО НАС ЛЮБЛЯТЬ ЗА ТЕ ЩО МИ ХОРОШІ І НЕ ЗДОГАДУЄМОСЯ ЩО ЛЮБЛЯТЬ НАС ТОМУ ЩО ХОРОШИМИ Є ТІ ХТО НАС ЛЮБИТЬ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ЗАПРОПОНУВАВ ЗАВЕРШИТИ ДИСКУСІЮ ПРО ЦЕЙ ТВІР ЯК ЛІТЕРАТУРНИЙ РОМАН ТА РОЗГЛЯДАТИ ЙОГО ЯК СОЦІАЛЬНИЙ ПАМФЛЕТ І ГОВОРИТИ НЕ ПРО ТЕ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВОНА ПОЧИНАЄ ФІКСУВАТИ НА СВІЙ СМАК І РОЗСУД ВЕСТИ ЩОДЕННИК ДАВАТИ СВОЮ ОЦІНКУ ПОДІЙ ЩОСЬ ДОДАВАТИ ЩОСЬ ВІДКИДАТИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ВЗАГАЛІ МЕНІ ЗДАЄТЬСЯ ВСЕ НАШЕ ЖИТТЯ  ЦЕ ЧЕКАННЯ НАЙГІРШОГО І НАДІЯ НА КРАЩЕ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
 <p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
-<p class='warning'>WARNING: This word: АЛЕ was in the transcript file, but is not in the dictionary (<s> НА ПОЧАТКУ ЙОГО КАДЕНЦІЇ ЦІ РІШЕННЯ НЕ БУЛИ ПОПУЛЯРНИМИ АЛЕ ЗГОДОМ З’ЯСУВАЛОСЯ ЩО ЄПИСКОП МАВ РАЦІЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ЛАБОРАТОРІЯ ОТРИМАЛА ІНСТИТУТСЬКИЙ СТАТУС ТУТ ЗАЙМАТИМУТЬСЯ СТУДЕНТИ НЕ ЛИШЕ ІНСТИТУТУ ГЕОДЕЗІЇ А Й ІНШИХ ІНСТИТУТІВ І КАФЕДР ПОЛІТЕХНІКИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> ТЯЖКОЮ ПРАЦЕЮ З ДОПОМОГОЮ ЩОРАЗУ БІЛЬШОЇ ГРУПИ ПРИХИЛЬНИКІВ СВОЇХ ІДЕЙ І ВІРНИХ ДУХОВНИЙ ЛІДЕР РОЗВИНУВ СТРУКТУРУ ЦЕРКВИ ЯКА ЗРОСЛА ДО МИТРОПОЛІЇ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: І was in the transcript file, but is not in the dictionary (<s> І ТІЛЬКИ ТОДІ ШЛЯХ ПРОСТЕЛИВСЯ ДО ІДЕЇ ВИДАТИ КНИГУ </s> ). Do cases match?</p>
 <span class='status FAILED'>FAILED</span>
 <p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
 <p class='warning'>WARNING: This phone (AI) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
@@ -111,3 +447,311 @@ span.status {
 <p class='warning'>WARNING: This phone (Y) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
 <p class='warning'>WARNING: This phone (YA) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
 <span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:34)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/lolo/ukr_model/logdir/000.comp_feat/ukr_model.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2016-03-25 02:34)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 533 words using 44 phones</p>
+<p class='warning'>WARNING: This phone (AI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (BB) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (E) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (EI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (KK) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (Y) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (YA) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.654277777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 530</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:35)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/lolo/ukr_model/logdir/000.comp_feat/ukr_model.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2016-03-25 02:36)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 535 words using 46 phones</p>
+<p class='warning'>WARNING: This phone (AI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (BB) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (E) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (EE) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (EI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (II) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (KK) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (Y) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (YA) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.654277777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 532</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> А ЯК ТIЛЬКИ ЗАВАДИТИ ТО ТУТ ВОНИ ПЕРШI ОСЬ ВОНИ СЕБЕ I ВИКРИЛИ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<p class='warning'>WARNING: This word: I was in the transcript file, but is not in the dictionary (<s> Я НЕ РОЗУМIЮ НАВIЩО ПОЛIТИКИ ЗАЛУЧАЮТЬ АРТИСТIВ ВСЕТАКИ ДЕРЖАВНА ДУМА ЦЕ Ж НЕ ВЕЛИКИЙ ТЕАТР I НЕ КОНЦЕРТНИЙ ЗАЛ I КОЖЕН ПОВИНЕН ЗАЙМАТИСЯ СВОЄЮ СПРАВОЮ </s> ). Do cases match?</p>
+<span class='status FAILED'>FAILED</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:39)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/lolo/ukr_model/logdir/000.comp_feat/ukr_model.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2016-03-25 02:39)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 535 words using 46 phones</p>
+<p class='warning'>WARNING: This phone (AI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (BB) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (E) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (EE) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (EI) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (II) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (KK) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (Y) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<p class='warning'>WARNING: This phone (YA) occurs in the dictionary (/home/lolo/ukr_model/etc/ukr_model.dic), but not in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone)</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.654277777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 532</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2016-03-25 02:41)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 1) </p>
+<p class='result'>sphinx_fe <a href="file:///home/lolo/ukr_model/logdir/000.comp_feat/ukr_model.train-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2016-03-25 02:41)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 535 words using 46 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 0.654277777777778</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 532</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<p class='warning'>WARNING: This phone (AI) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (BB) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (E) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (EE) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (KK) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (Y) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<p class='warning'>WARNING: This phone (YA) occurs in the phonelist (/home/lolo/ukr_model/etc/ukr_model.phone), but not in any word in the transcription (/home/lolo/ukr_model/etc/ukr_model_train.transcription)</p>
+<span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2016-03-25 02:41)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2016-03-25 02:41)</h3>
+<p>Skipped for multistream setup, see CFG_NUM_STREAMS configuration</p>
+<p>LDA/MLLT only has sense for single stream features</p>
+<p>Skipping LDA training</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2016-03-25 02:41)</h3>
+<p>Skipped for multistream setup, see CFG_NUM_STREAMS configuration</p>
+<p>LDA/MLLT only has sense for single stream features</p>
+<p>Skipping MLLT training</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2016-03-25 02:41)</h3>
+<p class='result'>agg_seg <a href="file:///home/lolo/ukr_model/logdir/05.vector_quantize/ukr_model.vq.agg_seg.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>kmeans_init <a href="file:///home/lolo/ukr_model/logdir/05.vector_quantize/ukr_model.kmeans.log">Log File</a></p><span class='status completed'>completed</span>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2016-03-25 02:42)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2016-03-25 02:42)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2016-03-25 02:42)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2016-03-25 02:42)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_mixw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.duplicate_codebook.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 1 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.1-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 16 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -190.287105759416</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 2 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.2-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 14 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -184.850825728413</p>
+<p class='result'>Convergence Ratio = 5.43628003100326</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 3 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.3-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 16 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -183.009420252245</p>
+<p class='result'>Convergence Ratio = 1.84140547616823</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 4 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.4-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 24 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -181.794129371104</p>
+<p class='result'>Convergence Ratio = 1.21529088114085</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 5 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.5-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 26 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -181.132825191651</p>
+<p class='result'>Convergence Ratio = 0.661304179453197</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 6 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.6-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 26 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -180.760544086267</p>
+<p class='result'>Convergence Ratio = 0.372281105383991</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 7 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.7-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 28 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -180.598441988756</p>
+<p class='result'>Convergence Ratio = 0.162102097511479</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 8 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.8-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 30 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 8</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.8.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -180.396562389537</p>
+<p class='result'>Convergence Ratio = 0.201879599219069</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 9 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.9-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 30 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 9</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.9.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -180.251944149876</p>
+<p class='result'>Convergence Ratio = 0.144618239660701</p>
+<p class='result'>Baum welch starting for 256 Gaussian(s), iteration: 10 (1 of 1)</p>
+<p class='result'>bw <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.10-1.bw.log">Log File</a></p><p class='error'>ERROR: This step had 30 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 10</p>
+<p class='result'>norm <a href="file:///home/lolo/ukr_model/logdir/20.ci_hmm/ukr_model.256.10.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Maximum desired iterations 10 performed. Terminating CI training</p>
+<p class='result'>Training completed after 10 iterations</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<p>Skipped (set $CFG_CD_TRAIN = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2016-03-25 03:31)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2016-03-25 03:31)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2016-03-25 03:31)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2016-03-25 03:31)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2016-03-25 03:31)</h3>
+<p class='phase'>Phase 1: Cleaning up directories: logs...</p>
+<p class='phase'>Phase 2: Doing interpolation...</p>
+<p class='result'>delint <a href="file:///home/lolo/ukr_model/logdir/90.deleted_interpolation/ukr_model.deletedintrep-256.log">Log File</a></p><p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Dumping senones for PocketSphinx...</p>
+<p class='result'>mk_s2sendump <a href="file:///home/lolo/ukr_model/logdir/90.deleted_interpolation/ukr_model.s2sendump-256.log">Log File</a></p><p class='error'>ERROR: FATAL: "senone.c", line 213: fopen(/home/lolo/ukr_model/model_parameters/ukr_model.cd_semi_256_delinterp/mixture_weights,rb) failed</p>
+<p class='error'>ERROR: This step had 1 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status FAILED'>FAILED</span>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2016-03-29 17:40)</h3>
+<p class='result'>Decoding 0 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///home/lolo/ukr_model/logdir/decode/ukr_model-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2016-03-29 17:43)</h3>
+<p class='result'>Decoding 0 segments starting at 0 (part 1 of 1) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///home/lolo/ukr_model/logdir/decode/ukr_model-1-1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
