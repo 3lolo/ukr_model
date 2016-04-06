@@ -1,7 +1,0 @@
--lowerf 200
--upperf 3500
--nfilt 15
--transform dct
--lifter 22
--agc none
--cmn current
