@@ -1,5 +1,4 @@
 A A 
-I I 
 IНША I N SH A 
 Є YE 
 ЄВРЕЄМ YE V R E YE M 
@@ -109,6 +108,7 @@ IНША I N SH A
 АПТЕЧНИХ A P T E CH N Y H 
 АРКУШ A R K U SH 
 АРТИСТIВ A R T Y S T I V 
+АРТИСТІВ A R T Y S TT І V 
 АРХІТЕКТУРНОКУЛЬТУРНОЇ A R HH І T E K T U R N O K U LL T U R N O YI 
 АРХІТЕКТУРНОКУЛЬТУРОЛОГІЧНЕ A R HH І T E K T U R N O K U LL T U R O L O GG І CH N E 
 АТРАКЦІОНІВ A T R A K CC І O NN І V 
@@ -1023,6 +1023,7 @@ IНША I N SH A
 ДІТОК DD І T O K 
 ДІТЯМ DD І TT A M 
 ДА D A 
+НАШІ N A SHH І 
 ДАВ D A V 
 ДАВАЙ D A V A I 
 ДАВАЛИ D A V A L Y 
@@ -1330,7 +1331,6 @@ IНША I N SH A
 ЗІРКИ ZZ І R K Y 
 ЗІТКАНА ZZ І T K A N A 
 ЗІШТОВХНУТИ ZZ І SH T O V H N U T Y 
-ЗЇДЕНИХ Z YI D E N Y H 
 ЗЇХАТИСЬ Z YI H A T Y SS 
 ЗА Z A 
 ЗАЇЗДИЛИ Z A YI Z D Y L Y 
@@ -1372,13 +1372,12 @@ IНША I N SH A
 ЗАДОВОЛЕНИЙ Z A D O V O L E N Y I 
 ЗАДОВОЛЕНО Z A D O V O L E N O 
 ЗАЗДРИТИ Z A Z D R Y T Y 
-ЗАЙ­МАЛАСЯ Z A I M A L A SS A 
 ЗАЙВОГО Z A I V O G O 
 ЗАЙМАЄМОСЬ Z A I M A YE M O SS 
 ЗАЙМАЄТЬ Z A I M A YE TT 
 ЗАЙМАЄШСЯ Z A I M A YE SH SS A 
-ЗАЙМАТИМУТЬСЯ Z A I M A T Y M U TT SS A 
 ЗАЙМАЛАСЯ Z A I M A L A SS A 
+ЗАЙМАТИМУТЬСЯ Z A I M A T Y M U TT SS A 
 ЗАЙМАТИСЬ Z A I M A T Y SS 
 ЗАЙМАТИСЯ Z A I M A T Y SS A 
 ЗАЙМАЮТЬСЯ Z A I M A YU TT SS A 
@@ -1572,7 +1571,7 @@ IНША I N SH A
 ЗДОГАДАЮТЬСЯ Z D O G A D A YU TT SS A 
 ЗДОГАДУЄМОСЯ Z D O G A D U YE M O SS A 
 ЗДОРОВЕ Z D O R O V E 
-ЗДОРОВЯ Z D O R O VV A 
+ЗДОРОВЯ Z D O R O V YA 
 ЗДОХЛИЙ Z D O H L Y I 
 ЗДОХНУТИ Z D O H N U T Y 
 ЗДУЛОСЯ Z D U L O SS A 
@@ -1722,7 +1721,8 @@ IНША I N SH A
 ЗУСТРІЧАЄТЬСЯ Z U S T RR І CH A YE TT SS A 
 ЗУСТРІЧАВСЯ Z U S T RR І CH A V SS A 
 ЗЯВЛЯЮТЬСЯ ZZ A V LL A YU TT SS A 
-ЗЯСУВАЛОСЯ ZZ A S U V A L O SS A 
+ЗЇДЕНИХ Z YI D E N Y H 
+ЗЯСУВАЛОСЯ Z YA S U V A L O SS A 
 Й I 
 ЙДЕ I D E 
 ЙДТИ I D T Y 
@@ -2370,6 +2370,7 @@ IНША I N SH A
 НАВIЩО N A V I SH O 
 НАВІКИ N A VV І K Y 
 НАВІТЬ N A VV І TT 
+НАВІЩО N A VV І SH O 
 НАВКОЛО N A V K O L O 
 НАВОЛОЧНОЇ N A V O L O CH N O YI 
 НАВРЯД N A V RR A D 
@@ -2494,7 +2495,6 @@ IНША I N SH A
 НАЦІОНАЛЬНА N A CC І O N A LL N A 
 НАЧЕ N A CH E 
 НАШ N A SH 
-НАШІ N A SHH І 
 НАШІЙ N A SHH І I 
 НАШІПТУЮТЬ N A SHH І P T U YU TT 
 НАША N A SH A 
@@ -2882,8 +2882,8 @@ IНША I N SH A
 ПАЛЮЧИМ P A LL U CH Y M 
 ПАЛЯТЬ P A LL A TT 
 ПАМФЛЕТ P A M F L E T 
+ПАМЯТІ P A MM A TT І 
 ПАМЯТАЮЧИ P A MM A T A YU CH Y 
-ПАМЯТІ P A M YA TT І 
 ПАН P A N 
 ПАНА P A N A 
 ПАНИ P A N Y 
@@ -2969,6 +2969,7 @@ IНША I N SH A
 ПЕРЛИ P E R L Y 
 ПЕРШ P E R SH 
 ПЕРШI P E R SH I 
+ПЕРШІ P E R SHH І 
 ПЕРШЕ P E R SH E 
 ПЕРШИЙ P E R SH Y I 
 ПЕРШИМ P E R SH Y M 
@@ -3173,6 +3174,8 @@ IНША I N SH A
 ПОЛІ P O LL І 
 ПОЛІТЕХНІКИ P O LL І T E H NN І K Y 
 ПОЛІТИКА P O LL І T Y K A 
+ПОЛІТИКИ P O LL І T Y K Y 
+ПОЛІТИКОЮ P O LL І T Y K O YU 
 ПОЛЕ P O L E 
 ПОЛЕГЛИХ P O L E G L Y H 
 ПОЛЕТІВ P O L E TT І V 
@@ -3186,6 +3189,7 @@ IНША I N SH A
 ПОЛЯ P O LL A 
 ПОМІЖ P O MM І ZH 
 ПОМІНЯТИ P O MM І NN A T Y 
+ПОМІТІ P O MM І TT І 
 ПОМІТИЛИ P O MM І T Y L Y 
 ПОМІТИТЬ P O MM І T Y TT 
 ПОМІТЯТЬ P O MM І TT A TT 
@@ -3375,7 +3379,7 @@ IНША I N SH A
 ПРИВІТНЕ P R Y VV І T N E 
 ПРИВОДЯТЬ P R Y V O DD A TT 
 ПРИВОЗЯТЬ P R Y V O ZZ A TT 
-ПРИВЯЖИ P R Y VV A ZH Y 
+ПРИВЯЖИ P R Y VV A ZH Y
 ПРИВЯЗАВ P R Y V YA Z A V 
 ПРИГАСАЛИ P R Y G A S A L Y 
 ПРИГАСАТИ P R Y G A S A T Y 
@@ -3885,6 +3889,7 @@ IНША I N SH A
 СИР S Y R 
 СИРОВИНОЮ S Y R O V Y N O YU 
 СИТУАЦIЯ S Y T U A C I YA 
+СИТУАЦІЯ S Y T U A CC І YA 
 СИХІВСЬКОГО S Y HH І V SS K O G O 
 СКІЛЬКИ S KK І LL K Y 
 СКАЖІМО S K A ZHH І M O 
@@ -4890,4 +4895,4 @@ IНША I N SH A
 ЯСНА YA S N A 
 ЯЩИКІВ YA SH Y KK І V 
 ЯЩИКИ YA SH Y K Y 
-ГУЛЕЮ H U L E YU
+ГУЛЕЮ H U L E YU 
